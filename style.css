@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+/* Apply styles to the entire body */
+body {
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use Flexbox for centering the main container */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; /* Set minimum height to full viewport height */
+    font-family: "Peralta", serif; /* Use Peralta font from Google Fonts */
+}
+
+/* Flex container for the background */
+.container {
+    display: flex;  /* Flexbox container */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center items vertically within the container */
+    align-items: center; /* Center items horizontally within the container */
+    width: 100%; /* Full width */
+    min-height: 100vh; /* Ensure container covers full viewport height */
+    background-image: url('assets/images/background.png'); /* Set the background image */
+    background-size: cover; /* Make the background image cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding and border in the element’s total width and height */
+}
+
+/* Style for the h1 elements */
+h1 {
+    color: wheat; /* Set text color to wheat */
+    font-size: 2rem; /* Set font size */
+    text-align: center; /* Center align the text */
+    margin: 0; /* Remove default margin */
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) { /* For tablets and larger screens */
+    h1 {
+        font-size: 3rem; /* Increase font size for larger screens */
+    }
+}
+
+@media (min-width: 1024px) { /* For desktops and larger screens */
+    h1 {
+        font-size: 4rem; /* Further increase font size for desktops */
+    }
+}
