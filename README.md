@@ -1,1 +1,1 @@
-# Auto-Text-Trail_Animation
+# Auto-Text-Effect-Animation
